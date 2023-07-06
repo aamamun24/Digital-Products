@@ -3,7 +3,7 @@
     padding: 0;
 }
 .menu-container{
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(70, 70, 70);
     padding: 20px;
     color: white;
     list-style: none;
@@ -24,5 +24,38 @@
 }
 .item:hover{
     color: chocolate;
+    cursor: pointer;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url('./images/background.png'), linear-gradient(45deg, rgb(8, 8, 8),rgb(42, 41, 41));
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-img{
+    width: 300px;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: green;
     cursor: pointer;
 }
