@@ -64,7 +64,6 @@
 .about-container{
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
     justify-content: space-around;
     margin-top: 20px;
     padding: 25px;
@@ -72,4 +71,35 @@
 .about-title{
     text-align: center;
     padding-top: 20px;
+}
+.service-container{
+    background-image: url('./images/background.png'), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 50px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.box{
+    width: 200px;
+    height: 280px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 4px 2px 105px gray;
+    border-radius: 10px;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: #383737;
+    margin-top: 5px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
 }
