@@ -4,7 +4,7 @@
 }
 .menu-container{
     background-color: rgb(70, 70, 70);
-    padding: 20px;
+    padding: 12px;
     color: white;
     list-style: none;
     display: flex;
@@ -13,6 +13,7 @@
 }
 .logo-photo{
     width: 120px;
+    padding: 5px;
 }
 .menus{
     display: flex;
@@ -36,6 +37,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 10px;
 }
 .banner-img{
     width: 300px;
@@ -58,4 +60,16 @@
 .btn:hover{
     background-color: green;
     cursor: pointer;
+}
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 25px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
 }
