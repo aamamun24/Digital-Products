@@ -4,5 +4,24 @@
 }
 .hello{
     color: orange;
-    cursor: url("https://www.mastersoftwaresolutions.com/wp-content/uploads/2014/08/bnr-1.png"),auto;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid grey;
+    height: 500px;
+    /* flex-direction: row-reverse; */
+}
+.box{
+    padding: 10px;
+    background-color: orange;
+    width: 150px;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blueviolet;
 }
